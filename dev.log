@@ -1,0 +1,14 @@
+
+  vinext dev  (Vite 8.0.13)
+
+There was an access violation in the runtime.
+On Windows, this may be caused by an outdated Microsoft Visual C++ Redistributable library.
+Check that you have the latest version installed.
+See https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist.
+MiniflareCoreError [ERR_RUNTIME_FAILURE]: The Workers runtime failed to start. There is likely additional logging output above.
+    at #assembleAndUpdateConfig (C:\Users\User1\Documents\Codex\2026-10-23\new-chat-2\work\salon-demo\node_modules\.pnpm\miniflare@4.20260515.0\node_modules\miniflare\dist\src\index.js:89177:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Mutex.runWith (C:\Users\User1\Documents\Codex\2026-10-23\new-chat-2\work\salon-demo\node_modules\.pnpm\miniflare@4.20260515.0\node_modules\miniflare\dist\src\index.js:58160:48) {
+  code: 'ERR_RUNTIME_FAILURE',
+  cause: undefined
+}
